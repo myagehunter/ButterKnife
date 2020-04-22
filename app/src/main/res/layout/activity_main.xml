@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.MainActivity">
+
+
+    <Button
+        android:id="@+id/mbtn_yes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="原有初始化控件绑定" />
+    <Button
+        android:id="@+id/mbtn_ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="通过反射动态绑定控件" />
+
+    <Button
+        android:id="@+id/mbtn_bind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="通过ButterKnife注解绑定控件" />
+</LinearLayout>
