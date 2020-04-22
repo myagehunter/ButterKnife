@@ -14,10 +14,7 @@
 * 
 *  
 *    三.butterKnife注解绑定控件  https://github.com/JakeWharton/butterknife 
-*   优点： 1.强大的View绑定和Click事件处理功能，简化代码，提升开发效率
-*         2.方便的处理Adapter里的ViewHolder绑定问题 
-*         3.运行时不会影响APP效率，使用配置方便  
-*         4.代码清晰，可读性强  *   
+*    优点： 1.强大的View绑定和Click事件处理功能，简化代码，提升开发效率2.方便的处理Adapter里的ViewHolder绑定问题 3.运行时不会影响APP效率
 *    缺点：编译的时候久一点  
 *    原理：注解绑定试图，编译开始解析时候 通过注解处理器收集目标类信息开始扫描，其中ButterView注解信息通过key/value bindingMap 形式保存 
 *    在BindingSet 中，一个Bindingset 就对应一个使用类，之后通过javaPoet技术process生产java类文件，遍历bindingMap，根据在BindingSet得到JavaFile 
