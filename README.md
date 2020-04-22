@@ -14,7 +14,7 @@
 * 
 *  
 *    三.butterKnife注解绑定控件  https://github.com/JakeWharton/butterknife 
-*   优点：1.强大的View绑定和Click事件处理功能，简化代码，提升开发效率 
+*   优点：1.强大的View绑定和Click事件处理功能，简化代码，提升开发效率
 *         2.方便的处理Adapter里的ViewHolder绑定问题 
 *         3.运行时不会影响APP效率，使用配置方便  
 *         4.代码清晰，可读性强  *    缺点：编译的时候久一点  
