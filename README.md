@@ -18,7 +18,6 @@
     在BindingSet 中，一个Bindingset 就对应一个使用类，之后通过javaPoet技术process生产java类文件，遍历bindingMap，根据在BindingSet得到JavaFile 
     对象，辅助生成java类代码，同时将类生成字节码文件  
 
-# ButterKnife
 * 1. Original binding method,
 Advantages: easy to write, easy to understand
 Disadvantages: produce a lot of repetitive operation redundancy high energy consumption, if the layout is more complex, bound to the control more points, will be very annoying to write. 
