@@ -17,6 +17,8 @@
     原理：注解绑定试图，编译开始解析时候 通过注解处理器收集目标类信息开始扫描，其中ButterView注解信息通过key/value bindingMap 形式保存 
     在BindingSet 中，一个Bindingset 就对应一个使用类，之后通过javaPoet技术process生产java类文件，遍历bindingMap，根据在BindingSet得到JavaFile 
     对象，辅助生成java类代码，同时将类生成字节码文件  
+    
+    
 
 * 1. Original binding method,
 Advantages: easy to write, easy to understand
